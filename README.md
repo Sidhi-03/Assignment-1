@@ -47,12 +47,12 @@ A GraphQL API service for querying bank branch information.
    - Scalable design
 
 ## Time Taken
-- Problem Analysis: 30 minutes
+- Problem Analysis: 45 minutes
 - Database Design: 1 hour
 - API Implementation: 2 hours
-- Testing: 1 hour
+- Testing: 1 hour 30 minutes
 - Documentation: 30 minutes
-- Total Time: 5 hours
+- Total Time: 6 hours approximately
 
 ## Features
 
