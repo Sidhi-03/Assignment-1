@@ -2,6 +2,58 @@
 
 A GraphQL API service for querying bank branch information.
 
+## Methodology
+
+### Problem Analysis
+1. Identified the need for a GraphQL API to query bank branch data
+2. Analyzed the database schema with two main entities: Banks and Branches
+3. Determined the need for a one-to-many relationship between Banks and Branches
+
+### Solution Approach
+1. **Database Design**
+   - Created SQLAlchemy models for Banks and Branches
+   - Established proper relationships and constraints
+   - Used PostgreSQL for robust data storage
+
+2. **API Development**
+   - Implemented FastAPI for the web framework
+   - Used Strawberry for GraphQL implementation
+   - Created type-safe GraphQL schema
+   - Implemented proper error handling
+
+3. **Testing Strategy**
+   - Set up Pytest framework
+   - Created test fixtures for database
+   - Implemented basic API tests
+
+4. **Deployment Preparation**
+   - Added Heroku deployment configuration
+   - Set up environment variable management
+   - Included database migration support
+
+### Technical Decisions
+1. **Framework Choice**: FastAPI + Strawberry
+   - FastAPI for its modern async support and performance
+   - Strawberry for type-safe GraphQL implementation
+
+2. **Database Choice**: PostgreSQL
+   - Robust relational database
+   - Excellent support for complex queries
+   - Reliable for production use
+
+3. **Architecture**
+   - Clean separation of concerns
+   - Type-safe implementation
+   - Scalable design
+
+## Time Taken
+- Problem Analysis: 30 minutes
+- Database Design: 1 hour
+- API Implementation: 2 hours
+- Testing: 1 hour
+- Documentation: 30 minutes
+- Total Time: 5 hours
+
 ## Features
 
 - GraphQL endpoint at `/gql`
